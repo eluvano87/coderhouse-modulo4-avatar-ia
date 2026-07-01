@@ -1,54 +1,170 @@
-# Entrega - Módulo 4: Avatar IA
+# Entrega – Módulo 4: Avatar IA con HeyGen y ElevenLabs
 
 ## Objetivo
 
-Desarrollar un avatar con inteligencia artificial utilizando HeyGen y ElevenLabs, manteniendo la identidad visual definida en el Módulo 3.
+Desarrollar un avatar con inteligencia artificial utilizando HeyGen y ElevenLabs para presentar el audiómetro uSound, manteniendo la identidad visual definida en el Módulo 3 y generando un contenido audiovisual coherente con la marca.
 
-## Herramientas utilizadas
+---
 
-- ChatGPT
-- ElevenLabs
-- HeyGen
+# Herramientas utilizadas
 
-## Guion utilizado
+- ChatGPT: desarrollo del guion persuasivo.
+- ElevenLabs: generación de voz mediante IA.
+- HeyGen: creación del avatar y sincronización labial.
+- ChatGPT (Image Generation): creación del personaje consistente.
+- GitHub: organización y entrega del repositorio.
 
-"¿Y si pudieras realizar una evaluación auditiva completa donde realmente la necesitás?
+---
 
-Soy la Licenciada Valentina Ríos, especialista en Audiología.
+# Estructura del repositorio
 
-Hoy la tecnología nos permite acercar el diagnóstico auditivo a más personas.
+```
+assets/
+│── ChatGPT Image.png
+│── ElevenLabs.mp3
 
-Con uSound podemos realizar evaluaciones en consultorios, escuelas, operativos y empresas, manteniendo la calidad clínica que los profesionales necesitan.
+output/
+│── Video Project uSound.mp4
 
-Te invito a descubrir una nueva forma de hacer audiología.
+README.md
+```
 
-Conocé uSound y llevá la innovación a tu práctica profesional."
+---
 
-## Descripción de la voz
+# Activos utilizados
 
-- Herramienta: ElevenLabs
-- Tipo: Text to Speech
-- Idioma: Español
-- Estilo: Profesional, cálido y natural.
-- Configuración: velocidad media y estabilidad media para lograr una locución clara y cercana.
+## Imagen
 
-## Proceso de sincronización
+Personaje femenino consistente representando a una Licenciada en Audiología de uSound.
 
-1. Se generó el audio con ElevenLabs.
-2. Se creó un Photo Avatar en HeyGen utilizando la imagen consistente desarrollada en el Módulo 3.
-3. Se cargó el audio generado dentro de HeyGen.
-4. Se sincronizaron automáticamente los movimientos labiales del avatar con la voz.
-5. El video se exportó en resolución 720p.
+Ubicación:
 
-## Estructura del repositorio
-
+```
 /assets
-- avatar_valentina_rios.png
-- voz_valentina_rios.mp3
+```
 
+---
+
+## Audio
+
+Audio generado con ElevenLabs utilizando una voz femenina profesional.
+
+Formato:
+
+```
+MP3
+```
+
+Ubicación:
+
+```
+/assets
+```
+
+---
+
+## Video Final
+
+Video generado en HeyGen utilizando sincronización labial automática con el audio generado por IA.
+
+Resolución:
+
+```
+720p
+```
+
+Ubicación:
+
+```
 /output
-- avatar_usound.mp4
+```
 
-## Resultado
+---
 
-Se obtuvo un video institucional con un avatar consistente, voz generada mediante IA y sincronización labial automática, respetando la identidad visual desarrollada para la marca uSound.
+# Guion utilizado
+
+> ¿Y si pudieras realizar una evaluación auditiva completa donde realmente la necesitás?
+
+> Soy la Licenciada Valentina Ríos, especialista en Audiología.
+
+> Hoy la tecnología nos permite acercar el diagnóstico auditivo a más personas.
+
+> Con uSound podemos realizar evaluaciones en consultorios, escuelas, operativos y empresas, manteniendo la calidad clínica que los profesionales necesitan.
+
+> Te invito a descubrir una nueva forma de hacer audiología.
+
+> Conocé uSound y llevá la innovación a tu práctica profesional.
+
+---
+
+# Prompt utilizado
+
+Crear un personaje femenino de aproximadamente 30 años, Licenciada en Audiología, aspecto profesional, uniforme institucional color turquesa con identidad visual de uSound, fondo blanco, iluminación de estudio, fotografía hiperrealista, expresión amable y lenguaje corporal natural.
+
+---
+
+# Configuración de voz
+
+Herramienta:
+
+ElevenLabs
+
+Características:
+
+- Voz femenina
+- Español latino
+- Tono profesional
+- Ritmo pausado
+- Estilo institucional
+
+---
+
+# Sincronización del avatar
+
+La imagen fue cargada como **Photo Avatar** en HeyGen.
+
+Se utilizó el audio generado en ElevenLabs para realizar la sincronización automática de labios (Lip Sync).
+
+El resultado mantiene una sincronización natural entre voz y movimiento facial.
+
+---
+
+# Integración musical
+
+Como música de fondo se incorporó una pista instrumental suave de estilo corporativo, manteniendo un volumen bajo (aproximadamente 15–20 %) para no interferir con la voz del avatar.
+
+El objetivo fue reforzar el tono institucional y profesional del video.
+
+---
+
+# Fondo utilizado
+
+Se utilizó un fondo limpio y neutro, consistente con la identidad visual desarrollada en el Módulo 3, priorizando una estética profesional que mantenga el foco sobre el avatar.
+
+---
+
+# Flujo de trabajo
+
+1. Creación del guion en ChatGPT.
+2. Generación del audio con ElevenLabs.
+3. Creación de la imagen consistente.
+4. Carga de imagen en HeyGen.
+5. Integración del audio.
+6. Sincronización labial.
+7. Incorporación de música de fondo.
+8. Exportación del video final.
+9. Organización del repositorio en GitHub.
+
+---
+
+# Resultado
+
+El proyecto cumple con:
+
+- Avatar consistente.
+- Voz generada con IA.
+- Sincronización labial.
+- Organización del repositorio.
+- Documentación del proceso.
+- Integración musical.
+- Video final exportado.
